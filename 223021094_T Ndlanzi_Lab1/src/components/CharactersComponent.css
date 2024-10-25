@@ -1,0 +1,173 @@
+
+.characters-component {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filters input,
+.filters select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  flex: 1;
+}
+
+
+.characters-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.character-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+  border-radius: 5px;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.character-card:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.character-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.character-card h2 {
+  margin: 10px 0 5px;
+  font-size: 1.2em;
+}
+
+.character-card p {
+  margin: 5px 0 0;
+}
+
+.pics {
+  width: 255px;
+  height: 255px;
+}
+
+
+.character-details {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+
+  border-radius: 8px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.backbtn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.backbtn:hover {
+  background-color: #0056b3;
+}
+
+.details-content {
+  line-height: 1.6;
+}
+
+.detail-item {
+  margin-bottom: 15px;
+}
+
+.detail-item strong {
+  display: block;
+  font-weight: bold;
+  color: #333;
+}
+
+.wand-details {
+  padding-left: 20px;
+  border-left: 2px solid #ddd;
+}
+
+.character-details {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.backbtn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.backbtn:hover {
+  background-color: #0056b3;
+}
+
+.details-content {
+  line-height: 1.6;
+}
+
+.detail-item {
+  margin-bottom: 15px;
+}
+
+.detail-item strong {
+  display: block;
+  font-weight: bold;
+  color: #333;
+}
+
+.wand-details {
+  padding-left: 20px;
+
+}
+
+.character-item {
+  display: flex;
+  align-items: center;
+}
+
+.character-content {
+  display: flex;
+}
+
+.character-image {
+  width: 50px; 
+  height: 50px; 
+  margin-right: 10px;
+}
